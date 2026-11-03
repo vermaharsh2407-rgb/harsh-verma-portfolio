@@ -3,6 +3,8 @@
 A single-page portfolio for video editor Harsh Verma, built with Next.js and
 Tailwind CSS.
 
+**Live:** https://harsh-verma-portfolio-beryl.vercel.app
+
 ## Stack
 
 - Next.js 16 (App Router)
@@ -27,6 +29,14 @@ Open [http://localhost:3000](http://localhost:3000).
 | `npm run build` | Production build         |
 | `npm run start` | Serve the production app |
 | `npm run lint`  | Run ESLint               |
+
+## Deploying
+
+```bash
+npx vercel --prod
+```
+
+The project is deployed on Vercel as `harsh-verma-portfolio`.
 
 ## Structure
 
